@@ -4,7 +4,7 @@
   "description": "Testes automatizados para o ServeRest usando Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress run --reporter mochawesome",
     "cypress:open": "cypress open"
   },
   "dependencies": {
