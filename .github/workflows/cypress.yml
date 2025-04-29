@@ -25,8 +25,7 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v5
         with:
-          build: npm run build
-          start: npm start
+          start: npx serve
           wait-on: 'http://localhost:3000'
           config-file: cypress.config.js
           browser: chrome
