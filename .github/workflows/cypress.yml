@@ -30,7 +30,6 @@ jobs:
           wait-on: 'http://localhost:3000'
           config-file: cypress.config.js
           browser: chrome
-          headless: true
           record: true
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
